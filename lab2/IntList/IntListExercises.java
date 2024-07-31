@@ -76,7 +76,7 @@ public class IntListExercises {
         if (currElemIsPrime) {
             lst.first *= lst.first;
         }
-        squarePrimes(lst.rest);
-        return true;
+
+        return squarePrimes(lst.rest)||currElemIsPrime ;
     }
 }
