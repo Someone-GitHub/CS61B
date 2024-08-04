@@ -38,7 +38,7 @@ public class AList<Item> {
         }
 
         items[size] = x;
-        size = size + 1;
+        size = size + ;
     }
 
     /** Returns the item from the back of the list. */
